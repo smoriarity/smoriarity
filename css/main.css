@@ -1,0 +1,251 @@
+/****Font Families
+
+font-family: noto-serif-condensed, serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: noto-serif-extracondensed, serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: 'Over the Rainbow', cursive;
+font-weight: 400;
+font-style: normal;
+
+font-family: alegreya, serif;
+font-weight: 400;
+font-style: normal;
+
+
+
+/*****BASE STYLES*****/
+
+body {
+    font-family: 'alegreya', serif;
+    color: #2b2b2b;
+}
+
+
+#mission {
+    height: 130px;
+}
+
+#serv {
+  height: 300px;
+}
+
+#seemywork {
+  height: 120px;
+}
+
+
+#contact {
+    height: 400px;
+}
+
+
+/**** layout ****/
+
+.full-width {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+.half-width {
+   width: 683px;
+   float: left;
+}
+
+.third-width {
+  width: 455px;
+  float: left;
+}
+
+/**** HEADER *****/
+
+
+header {
+    height: 500px;
+    background: url("../img/hero-image.png");
+    background-size: cover;
+    background-color: #ebebeb;
+}
+
+
+header h1 {
+    font-family: 'Over the Rainbow', cursive;
+    color: #ebebeb;
+    font-size: 72px;
+    /**padding-top: 200px;
+    padding-left: 5%;**/
+ }
+
+header h2{
+  font-family: 'noto-serif-condensed', serif;
+  color: #ebebeb;
+  font-size: 28px;
+  /**letter-spacing: 10px;
+    padding-left: 15%;
+  margin-top: -130px;**/
+
+}
+
+nav {
+    float: right;
+    /**padding-right: 5%;**/
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul li a {
+    font-family: 'noto-serif-extracondensed', serif;
+    font-size: 20px;
+    /**letter-spacing: 2px;**/
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ebebeb;
+    padding-left: 20px;
+
+}
+
+
+/*****mission*****/
+
+
+#mission  {
+    text-align: center;
+  }
+
+#mission h2{
+      font-family: 'noto-serif', serif;
+      color: #2b2b2b;
+      font-size: 30px;
+}
+#mission h2 span{
+      font-family: 'Over the Rainbow', cursive;
+      color: #2b2b2b;
+      font-size: 34px;
+}
+#mission p {
+      font-family: 'noto-serif', serif;
+      color: #2b2b2b;
+      font-size: 24px
+}
+
+/**Service Section**/
+
+#work-serv {
+  text-align: center;
+}
+
+#work-serv .full-width {
+    padding: 100px 0;
+}
+
+#work-serv img {
+    padding-bottom: 30px;
+}
+
+#work-serv h5 {
+    font-size: 30px;
+    line-height: 50px;
+    width: 375px;
+    margin: 0 auto;
+    margin-bottom: -20px;
+}
+
+#work-serv p {
+    font-family: 'alegreya', serif;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+/*****ABOUT ****/
+
+#about {
+  width: 100%;
+  background-color: #ebebeb;
+
+}
+
+#about .full-width {
+    padding: 15px 10px;
+    margin: 0 auto;
+
+}
+
+#about h2 {
+  font-family: 'adorn-condensed-sans', sans-serif;
+  font-size: 48px;
+  text-align: center;
+  color: #2b2b2b;
+
+}
+
+
+#about #aboutimg {
+    border-top: 8px solid #cccccc;
+    border-bottom: 8px solid #cccccc;
+    width: 395px;
+    margin-left: 100px;
+}
+
+#about #aboutp {
+    margin-left: 100px;
+}
+
+#about p {
+    font-family: 'alegreya', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #282828;
+    text-align: center;
+  }
+#aboutp span {
+  font-family: 'reenie-beanie', sans-serif;
+  font-size: 40px;
+}
+
+/****** CONTACT *****/
+
+
+#contact .full-width {
+    padding: 0px 10px;
+    margin: 0 auto;
+    height: 200px;
+}
+
+#contact h3 {
+    font-family: 'adorn-roman', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #2b2b2b;
+    margin-bottom: -60px;
+}
+
+#contact h5 {
+    font-family: 'alegreya', serif;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #2b2b2b;
+}
+#contact ul {
+  list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+    padding: 0 70px;
+    padding-bottom: 30px;
+
+}
+
+#contact #contact-icons {
+   margin-left: 280px;
+   padding-top: 20px;
+}
