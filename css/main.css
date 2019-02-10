@@ -32,6 +32,9 @@ body {
 #mission {
     height: 130px;
 }
+#comingsoon {
+    height: 130px;
+}
 
 #serv {
   height: 300px;
@@ -128,6 +131,31 @@ nav ul li a {
 }
 /***coming soon - can delete once completed**/
 
+#comingsoon {
+  text-align: center;
+  height: 100%;
+  padding-top: 50px;
+}
+
+#comingsoon h2 {
+  font-family: 'noto-serif', serif;
+  color: #2b2b2b;
+  font-size: 32px;
+  font-weight: 200;
+}
+
+#comingsoon h3 {
+  font-family: 'noto-serif', serif;
+  color: #2b2b2b;
+  font-size: 32px;
+  font-weight: 200;
+}
+#comingsoon h2 span{
+      font-family: 'Over the Rainbow', cursive;
+      color: #b87233;
+      font-size: 34px;
+      margin: 0px;
+}
 
 /*****mission*****/
 
